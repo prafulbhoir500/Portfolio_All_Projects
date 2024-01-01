@@ -93,6 +93,12 @@
     <Content Include="FloatingSignUpWithFocus\AboutUs.aspx" />
     <Content Include="FloatingSignUpWithFocus\Home.aspx" />
     <Content Include="FloatingSignUpWithFocus\Services.aspx" />
+    <Content Include="HTMLDesigns\ImageAnimation.html" />
+    <Content Include="HTMLDesigns\img\IMG_20220317_055927.jpg" />
+    <Content Include="HTMLDesigns\img\IMG_20230815_153313_257.jpg" />
+    <Content Include="HTMLDesigns\img\logo.png" />
+    <Content Include="HTMLDesigns\img\my photo 1.png" />
+    <Content Include="HTMLDesigns\img\picofme.png" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
