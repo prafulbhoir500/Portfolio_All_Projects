@@ -55,6 +55,7 @@
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
@@ -86,6 +87,7 @@
     <Content Include="Assets\mediaqueries.css" />
     <Content Include="Assets\script.js" />
     <Content Include="Assets\style.css" />
+    <Content Include="Demo\ImportExcelData\ImportExcelData.aspx" />
     <Content Include="Designs\Blogs.aspx" />
     <Content Include="Designs\Careers.aspx" />
     <Content Include="Designs\Sample.html" />
@@ -103,6 +105,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demo\ImportExcelData\ImportExcelData.aspx.cs">
+      <DependentUpon>ImportExcelData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo\ImportExcelData\ImportExcelData.aspx.designer.cs">
+      <DependentUpon>ImportExcelData.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Designs\Blogs.aspx.cs">
       <DependentUpon>Blogs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -165,6 +174,7 @@
     <Content Include="Assets\img\resume-example.pdf" />
     <Content Include="Assets\data\Praful_Bhoir_Resume.pdf" />
     <Content Include="FloatingSignUpWithFocus\MasterPage.Master" />
+    <Content Include="Assets\Uploads\statement.xls" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

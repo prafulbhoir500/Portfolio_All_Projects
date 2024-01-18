@@ -352,7 +352,7 @@
         </ul>
       </div>
     </nav>
-    <p>Copyright &#169; 2024 Praful Bhoir. All Rights Reserved.</p>
+    <p>Copyright &#169; <script>document.write(new Date().getFullYear())</script> Praful Bhoir. All Rights Reserved.</p>
   </footer>
   <script src="Assets/script.js"></script>
 </body>
