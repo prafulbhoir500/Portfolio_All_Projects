@@ -87,6 +87,7 @@
     <Content Include="Assets\mediaqueries.css" />
     <Content Include="Assets\script.js" />
     <Content Include="Assets\style.css" />
+    <Content Include="Demo\AutoComplete.aspx" />
     <Content Include="Demo\ImportExcelData\ImportExcelData.aspx" />
     <Content Include="Designs\Blogs.aspx" />
     <Content Include="Designs\Careers.aspx" />
@@ -105,6 +106,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demo\AutoComplete.aspx.cs">
+      <DependentUpon>AutoComplete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo\AutoComplete.aspx.designer.cs">
+      <DependentUpon>AutoComplete.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Demo\ImportExcelData\ImportExcelData.aspx.cs">
       <DependentUpon>ImportExcelData.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
